@@ -56,4 +56,28 @@ body {
       }
     }
   }
+
+  table {
+    width: 100%;
+  }
+
+  thead {
+    background-color: grey;
+  }
+
+  tbody {
+    background-color: lightgrey;
+
+    td {
+      text-align: center;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+      background-color: #ffffff;
+    }
+  }
 }

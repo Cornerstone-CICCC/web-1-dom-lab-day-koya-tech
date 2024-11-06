@@ -51,5 +51,23 @@ body {
   flex: 1;
   padding: 0.25rem;
 }
+.container table {
+  width: 100%;
+}
+.container thead {
+  background-color: grey;
+}
+.container tbody {
+  background-color: lightgrey;
+}
+.container tbody td {
+  text-align: center;
+}
+.container tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.container tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
 
 /*# sourceMappingURL=styles.css.map */
